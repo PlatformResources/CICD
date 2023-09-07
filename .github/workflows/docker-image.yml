@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker run -d -p 8084:8080 --name vscode codercom/code-server
+      run: docker run -d -p 8989:8080 --name vscode codercom/code-server
